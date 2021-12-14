@@ -4,6 +4,7 @@ import Search from './components/Search'
 import Dropdown from './components/DropDown'
 import Translate from './components/Translate'
 import Route from './components/Route'
+import Header from './components/Header'
 
 
 const items = [
@@ -42,14 +43,7 @@ const App =()=> {
 
     return (
         <div>
-            {/* <button onClick={()=> setShowDropdown(!showDropdown)}>Toggle Dropdown</button>
-            {showDropdown ?
-                <Dropdown 
-                    selected={selected} 
-                    options={options}
-                    onSelectedChange={setSelected}
-                /> : null
-            } */}
+            <Header/>
             <Route path='/'>
                 <Accordion items={items}/>
             </Route>
