@@ -1,4 +1,3 @@
-// AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM
 import React, {useState} from 'react'
 import Convert from './Convert'
 import Dropdown from './DropDown'
@@ -6,15 +5,15 @@ import Dropdown from './DropDown'
 const options = [
     {
         label: 'Afrikaans',
-        value: 'af,'
+        value: 'af'
     },
     {
         label: 'Arabic',
-        value: 'ar,'
+        value: 'ar'
     },
     {
         label: 'Hindi',
-        value: 'hi,'
+        value: 'hi'
     },
 ]
 
