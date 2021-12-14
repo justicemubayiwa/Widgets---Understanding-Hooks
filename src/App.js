@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Accordion from './components/Accordion'
 import Search from './components/Search'
 import Dropdown from './components/DropDown'
+import Translate from './components/Translate'
 
 const items = [
     {
@@ -42,14 +43,15 @@ const App =()=> {
 
     return (
         <div>
-            <button onClick={()=> setShowDropdown(!showDropdown)}>Toggle Dropdown</button>
+            {/* <button onClick={()=> setShowDropdown(!showDropdown)}>Toggle Dropdown</button>
             {showDropdown ?
                 <Dropdown 
                     selected={selected} 
                     options={options}
                     onSelectedChange={setSelected}
                 /> : null
-            }
+            } */}
+            <Translate/>
         </div>
     )
 }
