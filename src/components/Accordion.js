@@ -4,7 +4,11 @@ const Accordion =({items}) => {
     const [activeIndex, setActiveIndex] = useState('')
 
     const onTitleClick = (index) => {
-        setActiveIndex(index);
+        if(index !== activeIndex)
+            setActiveIndex(index);
+        else{
+            setActiveIndex(!index)
+        }
     }
 
     const renderedItems = items.map((item, index)=> {
@@ -27,7 +31,6 @@ const Accordion =({items}) => {
     
     return <div className='ui styled accordion'>
         {renderedItems}
-        <h1>{activeIndex}</h1>
     </div>
 
 }
