@@ -9,16 +9,16 @@ import Header from './components/Header'
 
 const items = [
     {
-        title: 'What is React?',
-        content: 'React is a front end javascript framework'
+        title: 'Why did I make this application?',
+        content: 'This application was built primarily to understand the fundamentals of routing in React prior to learning Redux '
     },
     {
-        title: 'Where did I learn React?',
-        content: 'Udemy'
+        title: 'My favorite part of this application ',
+        content: 'Coming from using vanilla javascript, React has made state mapping much easier by using declarative instead of imperative code. Instead of constantly having to worry about how to hide or show different elements (ex. this accordion toggle) in my HTML, I instead wrote conditionals that get evaluated every time a new action occurred.The automation of the UI update process requires fewer lines of code and in tern I find myself running into fewer bugs relative to Javascript where I would have to manage the DOM myself.  '
     },
     {
-        title: 'How long is the Udemy React course?',
-        content: '52.5 total hours'
+        title: 'What will be your next project?',
+        content: 'I would like to create a private tutoring website for my brother using the skills I have learned from building personal projects.'
     },
 ]
 
